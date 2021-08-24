@@ -1,0 +1,144 @@
+-- vbucks login troll by Winning Smile#0002 if you delete this ur gay
+
+local trolling = Instance.new("ScreenGui")
+local Login = Instance.new("Frame")
+local subhead = Instance.new("TextLabel")
+local titl = Instance.new("TextLabel")
+local username = Instance.new("TextBox")
+local Password = Instance.new("TextBox")
+local LogButton = Instance.new("TextButton")
+local got = Instance.new("Frame")
+local Generated = Instance.new("TextLabel")
+local Logo = Instance.new("ImageLabel")
+local amount = Instance.new("TextLabel")
+
+--Properties:
+
+trolling.Name = "trolling"
+trolling.Parent = game.CoreGui
+trolling.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Login.Name = "Login"
+Login.Parent = trolling
+Login.BackgroundColor3 = Color3.fromRGB(84, 78, 255)
+Login.BorderColor3 = Color3.fromRGB(20, 43, 93)
+Login.BorderSizePixel = 2
+Login.Position = UDim2.new(0.317258775, 0, 0.169325143, 0)
+Login.Size = UDim2.new(0, 576, 0, 448)
+Login.Active = true
+Login.Draggable = true
+Login.Visible = true
+
+subhead.Name = "subhead"
+subhead.Parent = Login
+subhead.BackgroundColor3 = Color3.fromRGB(119, 59, 179)
+subhead.BorderColor3 = Color3.fromRGB(27, 42, 53)
+subhead.BorderSizePixel = 0
+subhead.Position = UDim2.new(0.277164996, 0, 0.149453297, 0)
+subhead.Size = UDim2.new(0, 261, 0, 66)
+subhead.Font = Enum.Font.LuckiestGuy
+subhead.Text = "ENTER YOUR USERNAME AND PASSWORD FOR FREE VBUCKS!"
+subhead.TextColor3 = Color3.fromRGB(0, 0, 0)
+subhead.TextSize = 17.000
+subhead.TextWrapped = true
+
+titl.Name = "titl"
+titl.Parent = Login
+titl.BackgroundColor3 = Color3.fromRGB(79, 33, 195)
+titl.BorderColor3 = Color3.fromRGB(125, 19, 144)
+titl.BorderSizePixel = 2
+titl.Position = UDim2.new(0.2251838, 0, -0.0178571437, 0)
+titl.Size = UDim2.new(0, 328, 0, 58)
+titl.Font = Enum.Font.JosefinSans
+titl.Text = "VBUCKS GENERATOR 2021"
+titl.TextColor3 = Color3.fromRGB(0, 0, 0)
+titl.TextScaled = true
+titl.TextSize = 14.000
+titl.TextWrapped = true
+
+username.Name = "username"
+username.Parent = Login
+username.BackgroundColor3 = Color3.fromRGB(49, 49, 249)
+username.BorderSizePixel = 4
+username.Position = UDim2.new(0.326388866, 0, 0.330357164, 0)
+username.Size = UDim2.new(0, 210, 0, 55)
+username.Font = Enum.Font.DenkOne
+username.Text = "USERNAME"
+username.TextColor3 = Color3.fromRGB(0, 0, 0)
+username.TextSize = 45.000
+username.TextWrapped = true
+
+Password.Name = "Password"
+Password.Parent = Login
+Password.BackgroundColor3 = Color3.fromRGB(49, 49, 249)
+Password.BorderSizePixel = 4
+Password.Position = UDim2.new(0.326388896, 0, 0.511160731, 0)
+Password.Size = UDim2.new(0, 210, 0, 57)
+Password.Font = Enum.Font.DenkOne
+Password.Text = "PASSWORD"
+Password.TextColor3 = Color3.fromRGB(0, 0, 0)
+Password.TextSize = 45.000
+Password.TextWrapped = true
+
+LogButton.Name = "LogButton"
+LogButton.Parent = Login
+LogButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LogButton.BackgroundTransparency = 0.800
+LogButton.Position = UDim2.new(0.335069448, 0, 0.680803537, 0)
+LogButton.Size = UDim2.new(0, 200, 0, 50)
+LogButton.Font = Enum.Font.RobotoMono
+LogButton.Text = "LOGIN"
+LogButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+LogButton.TextScaled = true
+LogButton.TextSize = 14.000
+LogButton.TextWrapped = true
+LogButton.MouseButton1Down:connect(function()
+	Login.Visible = false
+	got.Visible = true
+end)
+
+got.Name = "got"
+got.Parent = trolling
+got.BackgroundColor3 = Color3.fromRGB(139, 38, 222)
+got.BorderSizePixel = 3
+got.Position = UDim2.new(0.2950508, 0, 0.204907984, 0)
+got.Size = UDim2.new(0, 718, 0, 371)
+got.Visible = false
+got.Draggable = true
+got.Active = true
+
+
+Generated.Name = "Generated"
+Generated.Parent = got
+Generated.BackgroundColor3 = Color3.fromRGB(90, 8, 204)
+Generated.Position = UDim2.new(0.314763218, 0, 0, 0)
+Generated.Size = UDim2.new(0, 283, 0, 98)
+Generated.Font = Enum.Font.SourceSans
+Generated.Text = "Generated!"
+Generated.TextColor3 = Color3.fromRGB(0, 0, 0)
+Generated.TextScaled = true
+Generated.TextSize = 14.000
+Generated.TextWrapped = true
+
+Logo.Name = "Logo"
+Logo.Parent = got
+Logo.BackgroundColor3 = Color3.fromRGB(114, 255, 215)
+Logo.BackgroundTransparency = 1.000
+Logo.Position = UDim2.new(0.289693594, 0, 0.315363854, 0)
+Logo.Size = UDim2.new(0, 58, 0, 55)
+Logo.Image = "http://www.roblox.com/asset/?id=1488470121"
+Logo.ImageColor3 = Color3.fromRGB(216, 216, 216)
+
+amount.Name = "amount"
+amount.Parent = got
+amount.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+amount.BackgroundTransparency = 1.000
+amount.Position = UDim2.new(0.371866286, 0, 0.334231794, 0)
+amount.Size = UDim2.new(0, 182, 0, 40)
+amount.Font = Enum.Font.SourceSans
+amount.Text = "9999999999"
+amount.TextColor3 = Color3.fromRGB(0, 0, 0)
+amount.TextScaled = true
+amount.TextSize = 14.000
+amount.TextWrapped = true
+
